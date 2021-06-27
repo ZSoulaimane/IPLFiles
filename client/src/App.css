@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.containerk{
+margin: 0;
+background-color: #1F1F1F;
+margin-top: 10px;
+padding: 0;
+font-size: 12px;
+text-align: center;
+color: #FFC107;
+}
+.container11{
+  display:block;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-bottom: 2px solid #FFC107;
+  top:50%;
+  left: 50%;
+  transform: translate3d(-50%,+650%, 0);
+  position: absolute;
+  border-radius: 50%;
+ 
+  text-align:center;
+  text-decoration:none;
+  background: #343A40;
+  box-shadow: 0 0 1px gray;
+  font-size:20px;
+  font-weight:bold;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+.intro{
+ background-color:#343A40;
+  width:100%;
+  height:650px;
+  border-bottom:2px solid  #FFC107;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a{
+  height:400px;
+}
+.container2{
+  margin-top: 200px;
+}
+.scrollb{
+  background-color: #343A40;
+  
+  width: 250px;
+  height:400px;
+  margin-top: 650px;
+ font-size: 25px;
+  
+  color: #FFC107;
+  border-radius: 50%;
+  
+  
+}
+.container11:hover{
+  box-shadow: 0 10px 16px -2px #fff0c5;
+  
+}
+.dropZone{
+  width: 10rem;
+}
+.wrapper {
+  margin: 10px;
+  height: 85px;
+  border: 8px dashed #E1E8EB;
+  display: flex;
+
+  border-radius: 5px;
+}
+.logoo{
+  width:50px;
+  height:50px;
+}
+
+h1{
+ 
+  color: #FFC107;
+  text-shadow: 3px 3px 6px #fff0c5;
+  font-size: 400%;
+  font-family: 'Rouge Script', cursive;
+  
+     line-height: 88px; 
+     top:50%;
+     left: 50%;
+     transform: translate3d(-50%,150%, 0);
+     position: absolute;
+    
+      
+}
+.DropZone{
+  border:7px dashed #FFC107;
+}
+.DropZone:hover{
+  background-color: #fff1c8;
+}
+.theadr{
+  background-color: #FFC107;
+ 
+}
+.tbl{
+  margin-top: 40px;
+}
+h2{
+  color:#fff1c8;
+  line-height: 88px; 
+  top:99%;
+  left: 50%;
+  text-shadow: 1px 1px 2px #ffc107;
+  transform: translate3d(-50%,150%, 0);
+  position: absolute;
+}
+
+
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+  background-color: #fff1c8;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #fff1c8;
+}
+div.containers {
+  height: 10em;
+  position: relative }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img {
+  width: 40px;
+  height: auto;
+}
